@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "100820952454",
+    "project_id": "menotees",
+    "storage_bucket": "menotees.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100820952454:android:6df05e386ec589bf7e3807",
+        "android_client_info": {
+          "package_name": "app.web.lyonsmasawa.menotees"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100820952454-c4t2paclk9et73jm7sbu6atd938la7pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2kBdOv8G-7-kWWnNQCau7BM3rRRas1F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100820952454-c4t2paclk9et73jm7sbu6atd938la7pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

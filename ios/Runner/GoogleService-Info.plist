@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>100820952454-a404uf8hb2v4ikcubdsmivqf31qstn0d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.100820952454-a404uf8hb2v4ikcubdsmivqf31qstn0d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeSO4zT_KFYVS68kFMNKfvMXUumw4ULuw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>100820952454</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.web.lyonsmasawa.menotees</string>
+	<key>PROJECT_ID</key>
+	<string>menotees</string>
+	<key>STORAGE_BUCKET</key>
+	<string>menotees.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:100820952454:ios:4b2fd9ab5c40d6ff7e3807</string>
+</dict>
+</plist>
