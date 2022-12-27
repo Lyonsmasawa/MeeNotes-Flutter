@@ -42,17 +42,6 @@ class _LoginViewState extends State<LoginView> {
     return BlocListener<AuthBloc, AuthState>(
       listener: (context, state) async {
         if (state is AuthStateLoggedOut) {
-          // final closeDialog = _closeDialogHandle;
-          // if (state.isLoading && closeDialog != null) {
-          //   closeDialog();
-          //   _closeDialogHandle = null;
-          // } else if (state.isLoading && closeDialog == null) {
-          //   _closeDialogHandle = showLoadingDialog(
-          //     context: context,
-          //     text: 'Loading...',
-          //   );
-          // }
-
           if (state.exception is UserNotFoundAuthException) {
             await showErrorDialog(
                 context, 'Cannot find a user with the entered credentials!');
@@ -109,7 +98,7 @@ class _LoginViewState extends State<LoginView> {
                     //   (route) => false,
                     // );
                     context.read<AuthBloc>().add(
-                          const AuthEventForgotPassword(email: null),
+                          const AuthEventForgotPassword(),
                         );
                     log("pressed");
                   },

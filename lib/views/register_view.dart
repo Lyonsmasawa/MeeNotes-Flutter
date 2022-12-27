@@ -56,7 +56,7 @@ class _RegisterViewStateState extends State<RegisterViewState> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Use your email and password to create an account!'),
+              const Text('Please create an account to get started!'),
               TextField(
                 controller: _email,
                 autocorrect: false,
