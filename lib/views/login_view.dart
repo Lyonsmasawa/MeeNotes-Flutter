@@ -98,7 +98,7 @@ class _LoginViewState extends State<LoginView> {
                     //   (route) => false,
                     // );
                     context.read<AuthBloc>().add(
-                          const AuthEventForgotPassword(),
+                          const AuthEventForgotPassword(), 
                         );
                     log("pressed");
                   },
