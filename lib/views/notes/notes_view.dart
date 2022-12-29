@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:menotees/constants/routes.dart';
 import 'package:menotees/enums/menu_action.dart';
 import 'dart:developer' as devtools show log;
 
@@ -34,6 +35,12 @@ class _NotesViewState extends State<NotesView> {
       appBar: AppBar(
         title: const Text("Me Notes"),
         actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(newNotesRoute);
+            },
+            icon: const Icon(Icons.add),
+          ),
           PopupMenuButton(
             onSelected: (value) async {
               switch (value) {

@@ -3,7 +3,8 @@ import 'package:menotees/constants/routes.dart';
 import 'package:menotees/firebase_options.dart';
 import 'package:menotees/services/auth/auth_service.dart';
 import 'package:menotees/views/login_view.dart';
-import 'package:menotees/views/notes_view.dart';
+import 'package:menotees/views/notes/new_note_view.dart';
+import 'package:menotees/views/notes/notes_view.dart';
 import 'package:menotees/views/register_view.dart';
 import 'package:menotees/views/verify_email_view.dart';
 
@@ -21,6 +22,7 @@ void main() {
         registeredRoute: (context) => const RegisterViewState(),
         notesRoute: (context) => const NotesView(),
         verifyEmailRoute: (context) => const VerifyEmail(),
+        newNotesRoute: (context) => const NewNoteView(),
       },
     ),
   );
