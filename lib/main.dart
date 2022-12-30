@@ -6,7 +6,7 @@ import 'package:menotees/views/login_view.dart';
 import 'package:menotees/views/notes/new_note_view.dart';
 import 'package:menotees/views/notes/notes_view.dart';
 import 'package:menotees/views/register_view.dart';
-import 'package:menotees/views/verify_email_view.dart';
+import 'package:menotees/views/verify_email_view.dart'; 
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
