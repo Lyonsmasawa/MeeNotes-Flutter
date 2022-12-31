@@ -117,6 +117,7 @@ class MockAuthProvider implements AuthProvider {
     const user = AuthUser(
       isEmailVerified: false,
       email: 'foo@bar.com',
+      id: 'aaaa',
     );
     _user = user;
     return Future.value(user);
@@ -138,6 +139,7 @@ class MockAuthProvider implements AuthProvider {
     const newUser = AuthUser(
       isEmailVerified: true,
       email: 'foo@bar.com',
+      id: 'aaaa',
     );
     _user = newUser;
   }
