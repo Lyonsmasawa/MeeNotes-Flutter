@@ -75,10 +75,10 @@ void main() {
         child: const HomePage(),
       ),
       routes: {
-        loginRoute: (context) => const LoginView(),
-        registeredRoute: (context) => const RegisterViewState(),
-        notesRoute: (context) => const NotesView(),
-        verifyEmailRoute: (context) => const VerifyEmail(),
+        // loginRoute: (context) => const LoginView(),
+        // registeredRoute: (context) => const RegisterViewState(),
+        // notesRoute: (context) => const NotesView(),
+        // verifyEmailRoute: (context) => const VerifyEmail(),
         createOrUpdateRoute: (context) => const CreateUpdateNoteView(),
       },
     ),
@@ -99,6 +99,8 @@ class HomePage extends StatelessWidget {
           return const VerifyEmail();
         } else if (state is AuthStateLoggedOut) {
           return const LoginView();
+        } else if (state is AuthStateRegister) {
+          return const RegisterViewState();
         } else {
           return const Scaffold(
             body: CircularProgressIndicator(),
