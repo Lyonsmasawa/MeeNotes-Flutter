@@ -8,6 +8,7 @@ import 'package:menotees/services/auth/bloc/auth_bloc.dart';
 import 'package:menotees/services/auth/bloc/auth_event.dart';
 import 'package:menotees/services/auth/bloc/auth_state.dart';
 import 'package:menotees/services/auth/firebase_auth_provider.dart';
+import 'package:menotees/views/forgot_password_view.dart';
 import 'package:menotees/views/login_view.dart';
 import 'package:menotees/views/notes/create_update_note_view.dart';
 import 'package:menotees/views/notes/notes_view.dart';
@@ -111,6 +112,8 @@ class HomePage extends StatelessWidget {
           return const LoginView();
         } else if (state is AuthStateRegister) {
           return const RegisterViewState();
+        } else if (state is AuthStateForgotPassword) {
+          return const ForgotPasswordView();
         } else {
           return const Scaffold(
             body: CircularProgressIndicator(),
