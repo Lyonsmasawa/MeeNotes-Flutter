@@ -47,7 +47,7 @@ class _RegisterViewStateState extends State<RegisterViewState> {
           } else if (state.exception is InvalidEmailAuthException) {
             await showErrorDialog(context, 'Invalid Email');
           }
-        } else {}
+        }
       },
       child: Scaffold(
         appBar: AppBar(title: const Text("Register")),

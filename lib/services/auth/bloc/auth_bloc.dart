@@ -6,7 +6,7 @@ import 'package:menotees/services/auth/bloc/auth_state.dart';
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc(AuthProvider provider)
       : super(const AuthStateUninitialized(isLoading: true)) {
-    on<AuthEvent>((event, emit) async {
+    on<AuthEventInitialize>((event, emit) async {
       await provider.initialize();
       final user = provider.currentUser;
 
